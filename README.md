@@ -16,9 +16,9 @@ This project analyzes UK House Price Index (HPI) data by adjusting it for inflat
 - **Regional Coverage**: All English regions and districts
 
 ## 📊 Dashboard Features
-[View RHPI Dashboard](RHPI%20Dashboard.png)
-
 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/bilal.ahmed.little/viz/RealHousePriceIndexRHPIAnalysisDashboard/Dashboard1#1)**
+
+![RHPI Dashboard Screenshot](RHPI%20Dashboard.png)
 
 The final Tableau dashboard includes:
 
@@ -49,6 +49,7 @@ RHPI-Analysis/
 │
 ├── notebooks/
 │   └── RHPI.ipynb
+|   └── coordinates.ipynb
 │
 ├── output/
 │   ├── housing_data_tableau_ready_FIXED.csv
@@ -60,9 +61,6 @@ RHPI-Analysis/
 │
 └── README.md
 ```
-
-## Links to Data Sources
-
 
 ## 🔧 Development Process & Technical Challenges
 
@@ -125,23 +123,6 @@ This formula adjusts house prices for general inflation, showing real price chan
 - Union all datasets with consistent structure
 - Create final analysis-ready dataset
 - Generate Tableau-compatible output
-
-## 📈 Key Insights
-
-### Economic Context
-- **Great Recession (2007-09)**: Major impact on house prices across all regions
-- **COVID-19 (2020)**: Smaller impact compared to 2008 financial crisis
-- **Regional Variations**: London significantly outperformed other regions; North East lagged
-
-### Property Performance
-- **Flats**: Generally underperformed other property types over 20-year period
-- **Detached Properties**: Showed strongest long-term performance
-- **Regional Divergence**: Significant performance gaps between regions
-
-### Investment Comparison
-- **2008 Crisis**: Created long-term drag on returns, making recent COVID dip appear smaller
-- **Savings vs Property**: Property significantly outperformed savings accounts when adjusted for inflation
-- **S&P 500**: Provided competitive returns, especially in recent years
 
 ## 📊 Data Sources
 
