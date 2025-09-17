@@ -17,6 +17,7 @@ This project analyzes UK House Price Index (HPI) data by adjusting it for inflat
 
 ## 📊 Dashboard Features
 [View RHPI Dashboard](RHPI%20Dashboard.png)
+
 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/bilal.ahmed.little/viz/RealHousePriceIndexRHPIAnalysisDashboard/Dashboard1#1)**
 
 The final Tableau dashboard includes:
